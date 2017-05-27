@@ -1,0 +1,44 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: $dark;
+  box-sizing: border-box;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+      margin-bottom: 20px;
+}
+
+h4 {
+  color: $accent;
+  margin: 10px 0 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    font-size: x-small;
+    text-align: center;
+    border-top: 3px solid $grey;
+}
+
+p {
+    margin: 0 0 20px;
+    padding: 0 5px;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  position:relative;
+}
